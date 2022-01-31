@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercice 0</title>
+    <title>ex5</title>
 </head>
 <body>
     <script>
-    let test = prompt("Merci d'inscrire une chaine de caractères ?");
-document.body.innerHTML = test;
-</script>
+        let ht = prompt("Montant HT ?");
+let taux_tva = prompt("Taux de TVA ?");
+let taux_tva_calcul = (taux_tva / 100) + 1;
+let ttc = ht * taux_tva_calcul;
+document.body.innerText = ttc;
+
+    </script>
 </body>
 </html>
