@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercice 1</title>
+    <title>ex13</title>
 </head>
 <body>
     <script>
-        let a = 42;
-        let b = 7569;
-        let result = a + b;
-        alert(result);
+        let html = '';
+        let k = 0;
+
+    while(k <= 20) {
+   html = html + k + '<br />';
+   k = k + 2;
+}
+    document.body.innerHTML = html;
 
     </script>
 </body>
